@@ -67,6 +67,8 @@
 //     ctx := context.WithValue(context.Background(), oauth.HTTPClient, hc)
 //     c := oauth.Client{ /* Any settings */ }
 //     resp, err := c.GetContext(ctx, &oauth.Credentials{}, rawurl, nil)
+//
+// Deprecated: use github.com/gomodule/oauth1/oauth instead.
 package oauth // import "github.com/garyburd/go-oauth/oauth"
 
 import (
